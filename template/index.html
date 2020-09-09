@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vuelidate</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <h3 class="text-center mt-5">Vuelidate</h3>
+    <div class="d-flex justify-content-center align-content-center flex-row">
+        <div class="card p-4 mt-5  shadow">
+            <form style="width: 350px">
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Email">
+                    <small class="form-text text-muted">Error message</small>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label>Confirm password</label>
+                    <input type="password" class="form-control" placeholder="Confirm password">
+                </div>
+                <div class="form-group">
+                    <label>Category</label>
+                    <select class="form-control">
+                        <option value="1">Developer</option>
+                        <option value="1">Help Desk</option>
+                        <option value="1">Cloud</option>
+                        <option value="1">Server</option>
+                        <option value="1">Unix</option>
+                        <option value="1">Linux</option>
+                        <option value="1">Mac OS</option>
+                        <option value="1">Windows</option>
+                    </select>
+                </div>
+
+                <button class="btn btn-secondary rounded-0 btn-sm">Add Category</button>
+
+                <ul class="list-group mt-3 mb-3 border-0">
+                    <li class="list-group-item d-flex pl-2">
+                        <input type="text" class="form-control mr-2">
+                        <button class="btn btn-sm btn-danger rounded-0 ">Delete</button>
+                    </li>
+                    <li class="list-group-item d-flex pl-2">
+                        <input type="text" class="form-control mr-2">
+                        <button class="btn btn-sm btn-danger rounded-0 ">Delete</button>
+                    </li>
+                    <li class="list-group-item d-flex pl-2">
+                        <input type="text" class="form-control mr-2">
+                        <button class="btn btn-sm btn-danger rounded-0 ">Delete</button>
+                    </li>
+
+                </ul>
+
+                <button class="btn btn-outline-secondary rounded-0">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
